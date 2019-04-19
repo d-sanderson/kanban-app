@@ -44,7 +44,7 @@ addNote = () => {
   }
 
 deleteNote = (id, e) => {
-   this.setState({
+   this.setState({ 
     notes:this.state.notes.filter(note => note.id !== id)
     
    });
